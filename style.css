@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+    color: antiquewhite;
+    padding: 220px 560px;
+}
+
+#divison{
+ border: 3px solid wheat;
+height: 300px;
+width: 300px;
+padding: 50px 50px;
+border-radius: 15px;
+background-color: sienna;
+box-shadow: 5px 5px 10px 5px grey;
+}
+
+select ,input,button{
+    border-radius: 7px;
+    margin-left: 15px;
+    border: 0px;
+    
+}
+button{
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: lightsteelblue;
+    color: black;
+    height: 2em;
+    width: 6em;
+}
+
+#temperature:invalid{
+    color:red;
+    animation: shake 300ms;
+}
+
+/* 
+#temperature:invalid button:hover {
+
+    transform: translateX(100px);
+    transform: translateX(-100px);
+ } */
+
+@keyframes shake{
+    25%{
+        transform: translateX(5px);
+    }
+    50%{
+        transform: translateX(-5px);
+
+    }
+    100%
+    {
+        transform: translateX(5px);
+
+    }
+
+}
+#r{
+    margin-bottom: 20px;
+}
